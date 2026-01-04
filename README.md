@@ -23,11 +23,6 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 - **Tools**: Learning Git/GitHub workflow and VS Code
 
 ---
-
-### 📈 Activity Status
-![lean-tom's GitHub stats](https://github-readme-stats.vercel.app/api?username=lean-tom&show_icons=true&theme=radical)
-
----
 *“Bridging the gap between human mathematical intuition and machine-checkable proofs.”*
 
 <!--
