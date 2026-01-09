@@ -8,7 +8,7 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 ### 🚀 Formalization Portfolio
 
 #### 🟡 In Review
-- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I employed an approach based on **independent sets**. I constructed an **injection** from a specific independent set into the covering set to establish the result.
+- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I constructed an **injection from a specific independent set into the covering set**. By proving that independent points cannot share a neighbor, I established the inequality $|N| \ge n(n+2)/4$ without iterating over diagonals.
 
 #### 🟢 Integrated (Merged)
 - **IMO 1986 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/146)) - Proof of termination for a discrete dynamical system involving integer assignments on a pentagon.
