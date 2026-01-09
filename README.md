@@ -7,6 +7,9 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 
 ### 🚀 Formalization Portfolio
 
+#### 🟡 In Review
+- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I employed a **projection argument onto an independent set** to avoid complex index manipulations in the standard diagonal counting proof.
+
 #### 🟢 Integrated (Merged)
 - **IMO 1986 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/146)) - Proof of termination for a discrete dynamical system involving integer assignments on a pentagon.
 - **IMO 1971 P6** ([Pull Request](https://github.com/dwrensha/compfiles/pull/143)) - Proof of the $n^2/2$ lower bound for the sum of entries in a non-negative integer matrix.
