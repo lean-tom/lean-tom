@@ -7,10 +7,8 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 
 ### 🚀 Formalization Portfolio
 
-#### 🟡 In Review
-- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I constructed an **injection from a specific independent set into the covering set**. By proving that independent points cannot share a neighbor, I established the inequality $|N| \ge n(n+2)/4$ without iterating over diagonals.
-
 #### 🟢 Integrated (Merged)
+- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I constructed an **injection from a specific independent set into the covering set**. By proving that independent points cannot share a neighbor, I established the inequality $|N| \ge n(n+2)/4$ without iterating over diagonals.
 - **IMO 1986 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/146)) - Proof of termination for a discrete dynamical system involving integer assignments on a pentagon.
 - **IMO 1971 P6** ([Pull Request](https://github.com/dwrensha/compfiles/pull/143)) - Proof of the $n^2/2$ lower bound for the sum of entries in a non-negative integer matrix.
 - **IMO 1968 P6** ([Pull Request](https://github.com/dwrensha/compfiles/pull/142)) - Formal verification of an infinite sum identity: $\sum_{k=0}^{\infty} \lfloor \frac{n + 2^k}{2^{k+1}} \rfloor = n$.
