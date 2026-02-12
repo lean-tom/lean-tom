@@ -12,7 +12,7 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 This repository showcases formal proofs of high-level competition math problems using the Lean 4 theorem prover.
 
 ## 🏆 Featured Work: IMO 2025 P6
-- **Status:** Completed & Passed CI in `[dwrensha/compfiles](https://github.com/dwrensha/compfiles/pull/166)`.
+- **Status:** Completed & Passed CI in ([Pull Request]https://github.com/dwrensha/compfiles/pull/166).
 - **Length:** ~4,500 lines of rigorous Lean 4 code.
 - **Complexity:** This problem was the "hardest" in IMO 2025.
 - **Why this matters:** A 4,500-line formal proof demonstrates extreme logical consistency and stamina, exceeding the current capabilities of LLMs in multi-step reasoning.
