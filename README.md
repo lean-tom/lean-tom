@@ -14,22 +14,31 @@ Welcome to my formal verification repository. This project showcases my ability 
 This is a world-first formalization of the most challenging problem from IMO 2025. The proof consists of ~4,500 lines of verified logic, demonstrating the capability to manage extreme complexity in formal systems.
 
 🛠️ Technical Deep Dive
+
 Lower Bound (Topological Combinatorics): * Applied the Erdős–Szekeres Theorem to grid coordinates.
 Engineered a topological partitioning of the n×n grid into four distinct regions (W, N, E, S) based on the closures of maximal chains.
 Formalized a "Pivot" region strategy to resolve the "Disjoint Case" where Longest Increasing/Descending Subsequences do not intersect.
+
 Upper Bound (Number Theory & Construction):
 Developed an explicit construction for n=2025 (n=k^2, k=45) using a system of linear congruences modulo k^2+1.
 Verified the geometric equivalence between "Matilda tiles" and index-based fiber sets.
+
 Engineering Excellence:
 Managed a 4,500-line codebase ensuring it passes CI (lake build) with zero errors or sorry.
+
 Prioritized verified logic and structural integrity, with plans for Lean Blueprint visualization.
 
 🟢 Other Notable Formalizations
 Problem	Domain	Key Methodology
+
 IMO 1999 P3	Combinatorics	Projection argument onto independent sets.
+
 IMO 1986 P3	Dynamical Systems	Discrete state-space termination proof.
+
 IMO 1971 P6	Matrix Theory	Non-negative integer matrix sum optimization.
+
 IMO 1961 P2	Geometry	Formal proof of Weitzenböck’s Inequality.
+
 ---
 
 ## 🧩 Technical Outlook & Interests
