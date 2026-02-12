@@ -15,7 +15,7 @@ This is a world-first formalization of the most challenging problem from IMO 202
 
 🛠️ Technical Deep Dive
 
-Lower Bound (Topological Combinatorics): * Applied the Erdős–Szekeres Theorem to grid coordinates.
+Lower Bound (Topological Combinatorics): Applied the Erdős–Szekeres Theorem to grid coordinates.
 Engineered a topological partitioning of the n×n grid into four distinct regions (W, N, E, S) based on the closures of maximal chains.
 Formalized a "Pivot" region strategy to resolve the "Disjoint Case" where Longest Increasing/Descending Subsequences do not intersect.
 
