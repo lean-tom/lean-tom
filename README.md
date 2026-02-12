@@ -5,34 +5,40 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 
 ---
 
-### 🚀 Formalization Portfolio
+🏆 Lean 4 Formalization Portfolio
+Welcome to my formal verification repository. This project showcases my ability to bridge high-level mathematical reasoning with rigorous software engineering, focusing on the Lean 4 interactive theorem prover.
 
-# Lean 4 Olympiad Formalizations
+💎 Featured Project: IMO 2025 Problem 6 (The Matilda Problem)
+[First complete formalization without sorry]
 
-This repository showcases formal proofs of high-level competition math problems using the Lean 4 theorem prover.
+This is a world-first formalization of the most challenging problem from IMO 2025. The proof consists of ~4,500 lines of verified logic, demonstrating the capability to manage extreme complexity in formal systems.
 
-## 🏆 Featured Work: IMO 2025 P6
-- **Status:** Completed & Passed CI in ([Pull Request]https://github.com/dwrensha/compfiles/pull/166).
-- **Length:** ~4,500 lines of rigorous Lean 4 code.
-- **Complexity:** This problem was the "hardest" in IMO 2025.
-- **Why this matters:** A 4,500-line formal proof demonstrates extreme logical consistency and stamina, exceeding the current capabilities of LLMs in multi-step reasoning.
+🛠️ Technical Deep Dive
+Lower Bound (Topological Combinatorics): * Applied the Erdős–Szekeres Theorem to grid coordinates.
+Engineered a topological partitioning of the n×n grid into four distinct regions (W, N, E, S) based on the closures of maximal chains.
+Formalized a "Pivot" region strategy to resolve the "Disjoint Case" where Longest Increasing/Descending Subsequences do not intersect.
+Upper Bound (Number Theory & Construction):
+Developed an explicit construction for n=2025 (n=k^2, k=45) using a system of linear congruences modulo k^2+1.
+Verified the geometric equivalence between "Matilda tiles" and index-based fiber sets.
+Engineering Excellence:
+Managed a 4,500-line codebase ensuring it passes CI (lake build) with zero errors or sorry.
+Prioritized verified logic and structural integrity, with plans for Lean Blueprint visualization.
 
-#### 🟢 Integrated (Merged)
-- **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I constructed an **injection from a specific independent set into the covering set**. By proving that independent points cannot share a neighbor, I established the inequality $|N| \ge n(n+2)/4$ without iterating over diagonals.
-- **IMO 1986 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/146)) - Proof of termination for a discrete dynamical system involving integer assignments on a pentagon.
-- **IMO 1971 P6** ([Pull Request](https://github.com/dwrensha/compfiles/pull/143)) - Proof of the $n^2/2$ lower bound for the sum of entries in a non-negative integer matrix.
-- **IMO 1968 P6** ([Pull Request](https://github.com/dwrensha/compfiles/pull/142)) - Formal verification of an infinite sum identity: $\sum_{k=0}^{\infty} \lfloor \frac{n + 2^k}{2^{k+1}} \rfloor = n$.
-- **IMO 1961 P2** ([Source Code](https://github.com/dwrensha/compfiles/blob/main/Compfiles/Imo1961P2.lean)) - Formal proof of **Weitzenböck's Inequality**: $a^2 + b^2 + c^2 \ge 4\sqrt{3}T$.
-
+🟢 Other Notable Formalizations
+Problem	Domain	Key Methodology
+IMO 1999 P3	Combinatorics	Projection argument onto independent sets.
+IMO 1986 P3	Dynamical Systems	Discrete state-space termination proof.
+IMO 1971 P6	Matrix Theory	Non-negative integer matrix sum optimization.
+IMO 1961 P2	Geometry	Formal proof of Weitzenböck’s Inequality.
 ---
 
-### 🛠 Learning & Focus
-- **Formal Verification**: Lean 4, Mathlib4
-- **Mathematics**: Olympiad-style Problem-solving, Formal Proofs
-- **Tools**: Learning Git/GitHub workflow and VS Code
+## 🧩 Technical Outlook & Interests
 
----
-*“Bridging the gap between human mathematical intuition and machine-checkable proofs.”*
+My work in formal verification is driven by a deep interest in the following areas:
+
+* **Designing Scalable AI Reasoning:** Exploring the intersection of LLMs and Formal Logic. I am interested in how formalizing extreme-scale proofs (like the 4,500-line IMO 2025 P6) can provide high-quality "ground truth" data for the next generation of reasoning-capable AI.
+* **Proof Visualization & Architecture:** Interested in utilizing **Lean Blueprints** to manage and visualize the dependency graphs of complex formalizations, ensuring that large-scale proofs remain maintainable and transparent.
+* **Formal Foundations:** Continuously exploring mathematical frameworks that serve as the bedrock for modern computational sciences.
 
 <!--
 **lean-tom/lean-tom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
