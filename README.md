@@ -7,6 +7,16 @@ I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwr
 
 ### 🚀 Formalization Portfolio
 
+# Lean 4 Olympiad Formalizations
+
+This repository showcases formal proofs of high-level competition math problems using the Lean 4 theorem prover.
+
+## 🏆 Featured Work: IMO 2025 P6
+- **Status:** Completed & Passed CI in `[dwrensha/compfiles](https://github.com/dwrensha/compfiles/pull/166)`.
+- **Length:** ~4,500 lines of rigorous Lean 4 code.
+- **Complexity:** This problem was the "hardest" in IMO 2025.
+- **Why this matters:** A 4,500-line formal proof demonstrates extreme logical consistency and stamina, exceeding the current capabilities of LLMs in multi-step reasoning.
+
 #### 🟢 Integrated (Merged)
 - **IMO 1999 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/152)) - Determination of the minimum number of marked squares on an $n \times n$ board. For the lower bound, I constructed an **injection from a specific independent set into the covering set**. By proving that independent points cannot share a neighbor, I established the inequality $|N| \ge n(n+2)/4$ without iterating over diagonals.
 - **IMO 1986 P3** ([Pull Request](https://github.com/dwrensha/compfiles/pull/146)) - Proof of termination for a discrete dynamical system involving integer assignments on a pentagon.
