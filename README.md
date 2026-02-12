@@ -41,13 +41,14 @@ IMO 1961 P2	Geometry	Formal proof of Weitzenböck’s Inequality.
 
 ---
 
-## 🧩 Technical Outlook & Interests
-
+🧩 Technical Outlook & Interests
 My work in formal verification is driven by a deep interest in the following areas:
 
-* **Designing Scalable AI Reasoning:** Exploring the intersection of LLMs and Formal Logic. I am interested in how formalizing extreme-scale proofs (like the 4,500-line IMO 2025 P6) can provide high-quality "ground truth" data for the next generation of reasoning-capable AI.
-* **Proof Visualization & Architecture:** Interested in utilizing **Lean Blueprints** to manage and visualize the dependency graphs of complex formalizations, ensuring that large-scale proofs remain maintainable and transparent.
-* **Formal Foundations:** Continuously exploring mathematical frameworks that serve as the bedrock for modern computational sciences.
+Designing Scalable AI Reasoning: Exploring the intersection of LLMs and Formal Logic. I am interested in how formalizing extreme-scale proofs (like the 4,500-line IMO 2025 P6) can provide high-quality "ground truth" data for the next generation of reasoning-capable AI.
+
+AI-Assisted Formal Engineering: I actively incorporate LLMs (specifically Gemini) into my workflow to bridge the gap between mathematical intuition and formal implementation, focusing on the synergy between human creativity and machine-checked rigor.
+
+Proof Visualization & Architecture: Interested in utilizing Lean Blueprints to manage and visualize the dependency graphs of complex formalizations, ensuring transparency and maintainability.
 
 <!--
 **lean-tom/lean-tom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
