@@ -1,62 +1,53 @@
 # Hi, I'm lean-tom! 👋
 
-I am a mathematics enthusiast focused on the formalization of mathematical problems using **Lean 4**.  
-I am currently contributing to the **[dwrensha/compfiles](https://github.com/dwrensha/compfiles)** project, which aims to collect formalizations of olympiad-style mathematics problems.
+I am a mathematics enthusiast and formal verification engineer dedicated to bridging high-level mathematical intuition with machine-checked rigor. I focus on the formalization of complex mathematical problems using **Lean 4**.
+
+Currently, I am a lead contributor to the **[dwrensha/compfiles](https://github.com/dwrensha/compfiles)** project, formalizing olympiad-level challenges to push the boundaries of what is possible in automated reasoning.
 
 ---
 
-🏆 Lean 4 Formalization Portfolio
-Welcome to my formal verification repository. This project showcases my ability to bridge high-level mathematical reasoning with rigorous software engineering, focusing on the Lean 4 interactive theorem prover.
+## 💎 Featured Project: IMO 2025 Problem 6 (The Matilda Problem)
+**[World's First Complete Formalization without `sorry`]**
 
-💎 Featured Project: IMO 2025 Problem 6 (The Matilda Problem)
-[First complete formalization without sorry]
+I have successfully formalized the complete solution for the most notorious problem of IMO 2025. This project involves **~4,700 lines of verified Lean 4 logic**, making it a benchmark for managing extreme complexity in formal systems.
 
-This is a world-first formalization of the most challenging problem from IMO 2025. The proof consists of ~4,500 lines of verified logic, demonstrating the capability to manage extreme complexity in formal systems.
+### 🛠️ Technical Innovations
 
-🛠️ Technical Deep Dive
+#### 1. Lower Bound (Necessity - Topological Combinatorics)
+We established the lower bound $n + 2\sqrt{n} - 3$ by applying the **Erdős–Szekeres Theorem** through a novel topological lens:
+- **Set-Theoretic Topological Partitioning**: Replaced error-prone analytic boundary step functions with discrete set intervals (unions/intersections). This eliminated manual `max`/`min` casework at the boundaries where LIS/LDS relations shift.
+- **Topological Pivot Strategy**: Engineered a "topological pivot" region to resolve the "Disjoint Case," allowing identification of pivot properties without explicit analytic intersection coordinates.
+- **Boundary Filtering**: Implemented systematic filtering ($0 < x < k^2-1$) to handle grid edges, removing "out-of-bounds" labels and ensuring the formal count matches the upper bound perfectly.
 
-Lower Bound (Topological Combinatorics): Applied the Erdős–Szekeres Theorem to grid coordinates.
-Engineered a topological partitioning of the n×n grid into four distinct regions (W, N, E, S) based on the closures of maximal chains.
-Formalized a "Pivot" region strategy to resolve the "Disjoint Case" where Longest Increasing/Descending Subsequences do not intersect.
+#### 2. Upper Bound (Sufficiency - Elementary Number Theory)
+For the $n=k^2$ case, I developed an original explicit construction:
+- **Index-Based Fiber Construction**: Defined integer forms $val\_s(p)$ and $val\_t(p)$ to partition the grid into disjoint fibers using Gaussian brackets.
+- **Lattice-Point Congruence**: Identified black squares as lattice points where $val\_s, val\_t \equiv 0 \pmod{k^2+1}$.
+- **Geometric Verification**: Formally verified that each Matilda tile corresponds to a $k \times k$ square, resulting in exactly $k^2 + 2k - 3$ tiles covering all white squares.
 
-Upper Bound (Number Theory & Construction):
-Developed an explicit construction for n=2025 (n=k^2, k=45) using a system of linear congruences modulo k^2+1.
-Verified the geometric equivalence between "Matilda tiles" and index-based fiber sets.
-
-Engineering Excellence:
-Managed a 4,500-line codebase ensuring it passes CI (lake build) with zero errors or sorry.
-
-Prioritized verified logic and structural integrity, with plans for Lean Blueprint visualization.
-
-🟢 Other Notable Formalizations
-
-IMO 1999 P3	Combinatorics
-IMO 1986 P3	Combinatorics
-IMO 1971 P6	Combinatorics
-IMO 1961 P2	Formal proof of Weitzenböck’s Inequality.
+### 📈 Status & Engineering Excellence
+- **Verified**: `lake build` completed successfully (1994 jobs) with zero errors.
+- **Up-to-date**: Fully compatible with **Lean v4.28.0-rc1** and the latest **Mathlib** standards (Pairwise, Std.Refl, etc.).
+- **Human-AI Symbiosis**: This proof was architected by me and implemented in collaboration with **Gemini 3 Pro**. I performed the rigorous decomposition into granular lemmas, while the AI assisted in implementation and tactical bridging.
 
 ---
 
-🧩 Technical Outlook & Interests
-My work in formal verification is driven by a deep interest in the following areas:
+## 🟢 Other Notable Formalizations
 
-Designing Scalable AI Reasoning: Exploring the intersection of LLMs and Formal Logic. I am interested in how formalizing extreme-scale proofs (like the 4,500-line IMO 2025 P6) can provide high-quality "ground truth" data for the next generation of reasoning-capable AI.
+- **IMO 1999 P3**  Combinatorics
+- **IMO 1986 P3**  Combinatorics
+- **IMO 1971 P6**  Combinatorics
+- **IMO 1968 P6**  Nuber Theory
+- **IMO 1961 P2**  Weitzenböck’s Inequality 
 
-AI-Assisted Formal Engineering: I actively incorporate LLMs (specifically Gemini) into my workflow to bridge the gap between mathematical intuition and formal implementation, focusing on the synergy between human creativity and machine-checked rigor.
+---
 
-Proof Visualization & Architecture: Interested in utilizing Lean Blueprints to manage and visualize the dependency graphs of complex formalizations, ensuring transparency and maintainability.
+## 🧩 Technical Outlook & Interests
 
-<!--
-**lean-tom/lean-tom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **Scalable AI Reasoning**: I am exploring how extreme-scale formalizations (like my 4,700-line Matilda proof) can serve as "Ground Truth" data for the next generation of reasoning-capable LLMs.
+- **AI-Assisted Formal Engineering**: Developing workflows where human mathematical architecture guides AI-driven implementation to achieve machine-checked rigor at scale.
+- **Proof Visualization**: Utilizing **Lean Blueprints** to map and manage dependency graphs of large-scale formal proofs.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston*
