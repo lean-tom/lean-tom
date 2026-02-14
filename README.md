@@ -49,5 +49,3 @@ For the $n=k^2$ case, I developed an original explicit construction:
 - **Proof Visualization**: Utilizing **Lean Blueprints** to map and manage dependency graphs of large-scale formal proofs.
 
 ---
-
-*"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston*
