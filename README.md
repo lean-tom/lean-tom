@@ -29,15 +29,11 @@ Managed a 4,500-line codebase ensuring it passes CI (lake build) with zero error
 Prioritized verified logic and structural integrity, with plans for Lean Blueprint visualization.
 
 🟢 Other Notable Formalizations
-Problem	Domain	Key Methodology
 
-IMO 1999 P3	Combinatorics	Projection argument onto independent sets.
-
-IMO 1986 P3	Dynamical Systems	Discrete state-space termination proof.
-
-IMO 1971 P6	Matrix Theory	Non-negative integer matrix sum optimization.
-
-IMO 1961 P2	Geometry	Formal proof of Weitzenböck’s Inequality.
+IMO 1999 P3	Combinatorics
+IMO 1986 P3	Combinatorics
+IMO 1971 P6	Combinatorics
+IMO 1961 P2	Formal proof of Weitzenböck’s Inequality.
 
 ---
 
