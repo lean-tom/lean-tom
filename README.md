@@ -20,7 +20,7 @@ Following the initial merge and community feedback from Zulip, I am currently re
 ---
 
 ## 🧩 Technical Outlook & Research Interests
-- **AI-Human Symbiosis**: Developing workflows where human mathematical intuition guides AI to produce verified "Ground Truth" data for automated reasoning.
+- **AI-Human Collaboration**: Developing workflows where human mathematical intuition guides AI to produce verified "Ground Truth" data for automated reasoning.
 - **Scalable Formal Engineering**: Managing the lifecycle of large-scale proofs from rapid prototyping to high-standard library integration.
 
 ---
