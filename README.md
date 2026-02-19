@@ -19,11 +19,9 @@ Following the initial merge and community feedback from Zulip, I am currently re
 
 ---
 
-## 🧩 Technical Outlook & Research Interests
-- **AI-Human Collaboration**: Developing workflows where human mathematical intuition guides AI to produce verified "Ground Truth" data for automated reasoning.
-- **Scalable Formal Engineering**: Managing the lifecycle of large-scale proofs from rapid prototyping to high-standard library integration.
-
----
+## 🧩 Technical Outlook & Research InterestsAI-Human Collaboration: 
+Exploring methodologies where human mathematical intuition guides AI to produce verified "Ground Truth" data. Focusing on bridging the gap between ad-hoc problem solving and abstract structural formalization.
+Scalable Formal Engineering: Refining the process of large-scale proof formalization. Focusing on refactoring long-form "brute-force" AI proofs into elegant, library-standard code using high-level mathematical abstractions.
 
 ## 🟢 Other Notable Formalizations
 - **IMO 1999 P3**  Combinatorics
