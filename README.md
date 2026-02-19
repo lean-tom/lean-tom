@@ -11,7 +11,7 @@ Currently, I contribute to the [dwrensha/compfiles](https://github.com/dwrensha/
 I successfully formalized the complete solution for this complex combinatorics problem. To address the critical challenge of "AI-generated code quality and verifiability," this project adopts a **two-stage approach**:
 
 1.  **Rapid Prototyping (Completed):** Leveraged AI assistance to capture the full logical path, establishing an initial "existence proof" of the formalization.
-2.  **Refinement & Standardization (Current Focus):** Guided by the principle that *"one must not take AI output at face value, but rather take human responsibility for structural reconstruction,"* I am performing a comprehensive refactoring to meet Mathlib’s rigorous standards.
+2.  **Refinement & Standardization (Current Focus):** Guided by a commitment to rigorous structural reconstruction—ensuring that every line of AI-assisted logic is human-verified and aligned with mathematical intuition— I am performing a comprehensive refactoring to meet Mathlib’s rigorous standards.
 
 #### 🚀 Evolution & Refactoring (In Progress)
 Using the redundant AI-generated prototype as a **"logical map,"** I am working to elevate the proof into an elegant mathematical formalization:
