@@ -34,4 +34,4 @@ IMO 1999 P3 | 1986 P3 | 1971 P6 | 1968 P6 | 1961 P2
 ---
 
 ### 🛠️ Status
-I am a non-expert currently learning the ropes of Mathlib. I am always mindful of concerns regarding the "flood of low-quality AI-generated code" and am striving to produce work that truly contributes to the community. I highly welcome any feedback or advice on my refactoring process via Zulip or GitHub Issues.
+I am a non-expert currently learning the ropes of Mathlib. I am always mindful of concerns regarding the "flood of low-quality AI-generated code" and am striving to produce work that truly contributes to the community. I highly welcome any feedback or advice on my refactoring process via Zulip.
