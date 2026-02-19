@@ -14,7 +14,7 @@ I successfully formalized the complete solution for this complex combinatorics p
 2.  **Refinement & Standardization (Current Focus): > Guided by a commitment to human-led logical design—ensuring that the proof structure reflects sound mathematical intuition rather than Initial AI-assisted implementation—I am performing a comprehensive refactoring to meet Mathlib’s rigorous standards.
 3.  
 #### 🚀 Evolution & Refactoring (In Progress)
-Using the redundant AI-generated prototype as a **"logical map,"** I am working to elevate the proof into an elegant mathematical formalization:
+Using the redundant AI-generated prototype as a **"scaffold,"** I am working to elevate the proof into an elegant mathematical formalization:
 
 * **Statement Refinement (Completed): > Refactored Joseph Myers' original definition to utilize docs#NonemptyInterval, bringing it in line with modern Mathlib standards.
 * **Proof Reconstruction (Researching/In Design):** Investigating methods to collapse the exhaustive **2×25 coordinate-based casework** into a concise proof. I am exploring concepts such as **signed parity, discrete vector fields, or potential functions** to maintain symmetry—strictly avoiding reliance on macro-based automation.
