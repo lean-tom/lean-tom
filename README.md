@@ -18,7 +18,7 @@ Using the redundant AI-generated prototype as a **"logical map,"** I am working 
 
 * **Statement Refinement (Completed): > Refactored Joseph Myers' original definition to utilize docs#NonemptyInterval, bringing it in line with modern Mathlib standards.
 * **Proof Reconstruction (Researching/In Design):** Investigating methods to collapse the exhaustive **2×25 coordinate-based casework** into a concise proof. I am exploring concepts such as **signed parity, discrete vector fields, or potential functions** to maintain symmetry—strictly avoiding reliance on macro-based automation.
-* **Goal:** Eliminate AI-derived verbosity and rebuild a formalization with a clear logical structure that conforms to library standards.
+* **Goal:** Distill long-form AI prototypes into idiomatic, high-level formalizations that meet library standards.
 
 ---
 
