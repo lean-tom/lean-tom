@@ -17,7 +17,7 @@ I successfully formalized the complete solution for this complex combinatorics p
 Using the redundant AI-generated prototype as a **"scaffold,"** I am working to elevate the proof into an elegant mathematical formalization:
 
 * **Statement Refinement (Completed): > Refactored Joseph Myers' original definition to utilize docs#NonemptyInterval, bringing it in line with modern Mathlib standards.
-* **Proof Reconstruction (Researching/In Design):** Investigating methods to collapse the exhaustive **2×25 coordinate-based casework** into a concise proof. I am exploring concepts such as **signed parity, discrete vector fields, or potential functions** to maintain symmetry—strictly avoiding reliance on macro-based automation.
+* **Proof Reconstruction (Researching/In Design):** I am investigating several mathematical avenues to collapse the exhaustive 2×25 casework. Current hypotheses include utilizing signed parity, discrete vector fields, or potential functions. My focus is on finding the most structurally elegant abstraction that maintains symmetry without relying on macro-based automation.
 * **Goal:** Distill long-form AI prototypes into idiomatic, high-level formalizations that meet library standards.
 
 ---
