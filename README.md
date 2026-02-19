@@ -12,7 +12,7 @@ I successfully formalized the complete solution for this complex combinatorics p
 
 1.  **Rapid Prototyping (Completed):** Leveraged AI assistance to capture the full logical path, establishing an initial "existence proof" of the formalization.
 2.  **Refinement & Standardization (Current Focus): > Guided by a commitment to human-led logical design—ensuring that the proof structure reflects sound mathematical intuition rather than Initial AI-assisted implementation—I am performing a comprehensive refactoring to meet Mathlib’s rigorous standards.
-3.  
+
 #### 🚀 Evolution & Refactoring (In Progress)
 Using the redundant AI-generated prototype as a **"scaffold,"** I am working to elevate the proof into an elegant mathematical formalization:
 
