@@ -16,7 +16,7 @@ I successfully formalized the complete solution for this complex combinatorics p
 #### 🚀 Evolution & Refactoring (In Progress)
 Using the redundant AI-generated prototype as a **"logical map,"** I am working to elevate the proof into an elegant mathematical formalization:
 
-* **Statement Refinement (Completed):** Aligned the problem definition with modern Mathlib standards, adopting **Joseph Myers'** idiomatic approach (utilizing `docs#NonemptyInterval`).
+* **Statement Refinement (Completed): > Refactored Joseph Myers' original definition to utilize docs#NonemptyInterval, bringing it in line with modern Mathlib standards.
 * **Proof Reconstruction (Researching/In Design):** Investigating methods to collapse the exhaustive **2×25 coordinate-based casework** into a concise proof. I am exploring concepts such as **signed parity, discrete vector fields, or potential functions** to maintain symmetry—strictly avoiding reliance on macro-based automation.
 * **Goal:** Eliminate AI-derived verbosity and rebuild a formalization with a clear logical structure that conforms to library standards.
 
