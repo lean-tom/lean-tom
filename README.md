@@ -18,7 +18,7 @@ Inspired by the vision shared by **Leonardo de Moura**, I am working to elevate 
 
 * **Intensive Study Phase (Current Focus):** Before proceeding with major code changes, I am dedicating time to **analyzing Mathlib’s core APIs and documentation**. I am particularly focused on studying **Joseph Myers’ proofs** to understand the "design patterns" of idiomatic Lean, ensuring my refactored code contributes to the library's long-term health.
 * **Statement Refinement:** (Completed) Refactored the definition to utilize `docs#NonemptyInterval` based on technical suggestions from **Joseph Myers**.
-* **Proof Reconstruction (Researching/In Design):** Investigating mathematical avenues—such as **signed parity, discrete vector fields, or potential functions**—to collapse the 2×25 casework. I am exploring how to turn these into clear, strategic "game moves."
+* **Proof Reconstruction (Researching/In Design):** Investigating mathematical avenues—such as **signed parity, discrete vector fields, or potential functions**—to collapse the 2×25 casework. I am exploring how to encapsulate these concepts into high-level structural lemmas that serve as clear, strategic steps in the proof.
 * **Goal:** Distill the 4,000-line "scaffold" into a concise, idiomatic formalization (Target: <1,000 lines).
 
 ---
