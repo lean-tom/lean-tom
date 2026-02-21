@@ -39,4 +39,4 @@ I am currently in a **"intensive learning" phase**, prioritizing the study of Ma
 
 I am deeply grateful for the community's support, especially **David Renshaw** for his guidance. I welcome any advice or insights on Mathlib best practices via Zulip.
 
-*(Note: I actively leverage Gemini as a collaborative partner to bridge linguistic gaps and accelerate the formalization process, ensuring my contributions are clear and respectful within this global community.)*
+*(Note: I actively leverage Gemini as a collaborative partner to bridge linguistic gaps and accelerate the formalization process, ensuring my contributions are clear and respectful within this international community.)*
