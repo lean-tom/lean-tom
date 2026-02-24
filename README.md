@@ -22,7 +22,9 @@ I successfully formalized the complete solution for this complex combinatorics p
 Before proceeding with major code changes, I am dedicating time to analyzing Mathlib’s core APIs and documentation. I am particularly focused on studying Joseph Myers’ proofs to understand the "design patterns" of idiomatic Lean, ensuring my refactored code contributes to the library's long-term health.
 
 * **Statement Refinement:(Ongoing)** Refactoring the definition to utilize docs#NonemptyInterval based on technical suggestions from Joseph Myers, while continuing to align the specification with Mathlib's idiomatic patterns.
-* **Proof Reconstruction (Researching/In Design):** Investigating mathematical avenues—such as signed parity, boundary cancellation, or invariants—to collapse the 2×25 casework and simplify the construction part. I am exploring how to encapsulate these concepts into high-level structural lemmas that serve as clear, strategic steps in the proof.
+* **Proof Reconstruction (Researching / In Design):**
+    * **Construction:** Transitioning to a bivariate polynomial invariant approach in $\mathbb{Z}[X, Y]$ to simplify tiling logic.
+    * **Necessity:** Investigating algebraic avenues to collapse extensive casework (initially $2 \times 25$ cases).
 * **Goal:** Sparsify the 4,000-line "scaffold" into idiomatic formalization (Target: <1,000 lines).
 
 ---
