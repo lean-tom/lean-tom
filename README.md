@@ -1,7 +1,7 @@
 # Hi, I'm lean-tom! 👋
 
 I am a formal verification enthusiast focused on bridging mathematical intuition with machine-checked rigor using **Lean 4**.
-Currently, I contribute to the **dwrensha/compfiles** project, exploring the synergy between human architecture and AI-assisted implementation.
+Currently, I contribute to the **dwrensha/compfiles** project, exploring the sparsifying transition from AI-generated formal prototypes to human-architected, idiomatic code.
 
 ---
 
@@ -23,9 +23,11 @@ Before proceeding with major code changes, I am dedicating time to analyzing Mat
 
 * **Statement Refinement:(Ongoing)** Refactoring the definition to utilize docs#NonemptyInterval based on technical suggestions from Joseph Myers, while continuing to align the specification with Mathlib's idiomatic patterns.
 * **Proof Reconstruction (Researching / In Design):**
-    * **Construction:** Transitioning to a bivariate polynomial invariant approach in $\mathbb{Z}[X, Y]$ to simplify tiling logic.
-    * **Necessity:** Investigating algebraic avenues to collapse extensive casework (initially $2 \times 25$ cases).
-* **Goal:** Sparsify the 4,000-line "scaffold" into idiomatic formalization (Target: <1,000 lines).
+    * **Construction:** Transitioning to a 2D telescoping sum using indicator functions (inspired by feedback from **Alex Meiburg**) to eliminate the need for extensive disjointness proofs.
+    * **Necessity:** Investigating avenues to simplify extensive casework (initially $2 \times 25$ cases).
+ 
+* **Current Status:** The scaffold has been reduced from 4700 lines to 3698 lines (3426 LoC) thanks to extensive golfing by **David Renshaw**.
+* **Goal:** Sparsify the 3,700-line "scaffold" into idiomatic formalization (Target: <1,000 lines).
 
 ---
 
